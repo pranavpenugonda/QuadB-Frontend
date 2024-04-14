@@ -1,0 +1,21 @@
+.input-element {
+  padding: 5px;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+
+.add-task-btn {
+  color: white;
+  background-color: #4c63b6;
+  font-family: "Roboto";
+  font-size: 18px;
+  border-width: 0px;
+  border-radius: 4px;
+  margin-top: 20px;
+  margin-bottom: 50px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-right: 20px;
+  padding-left: 20px;
+  cursor: pointer;
+}

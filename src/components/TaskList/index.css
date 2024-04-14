@@ -1,0 +1,51 @@
+.todo-items-cont {
+  list-style-type: none;
+  max-width: 100%;
+  padding-left: 0px;
+  /* background-color: #323f4b; */
+  padding: 50px;
+  border-radius: 8px;
+}
+
+.tasklist-cont {
+  display: flex;
+  max-width: 100%;
+  flex-direction: column;
+  align-items: center;
+}
+
+.tasks {
+  font-family: "Roboto";
+}
+
+.todo-item {
+  width: 100%;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: darkgray;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.delete-btn {
+  color: white;
+  background-color: #4c63b6;
+  font-family: "Roboto";
+  font-size: 18px;
+  border: none;
+  border-radius: 4px;
+  padding: 5px 20px;
+  cursor: pointer;
+}
+
+.task-name {
+  flex: 1;
+  margin-right: 20px;
+  padding: 12px;
+}
+
+.toggle-box {
+  margin-left: 20px;
+}
